@@ -26,7 +26,7 @@ parse$argument("-ec", "--expression_class",
                  help = "please tell the species or the label class for the classification")
 args <- parser$parse_args()
 expression_datasets <- args$single_cell_expression
-control_rep <- args$control_replicates_column_number
+control_rep <- args$control_replicates_col
 first_rep <- args$first_replicate_col
 second_rep <- args$second_expression
 third_rep <- args$third_expression 
