@@ -1,6 +1,7 @@
 #!/usr/bin/env Rscript --vanilla
 library(argparse)
 library(ggrain)
+library(patchwork)
 #   an addition to the single cell analysis to make the rainbow cloud maps for the expression datasets
 #   if you have used the multi-samples analysis and have clustered them using the ident.1 and ident.2
 #   and used the use.test, then you can use the following command line script to plot the rainbow cloud.
